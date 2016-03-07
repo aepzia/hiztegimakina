@@ -1,0 +1,5 @@
+
+
+function hasi() {
+    alert("Kaixo!");
+}

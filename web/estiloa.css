@@ -1,0 +1,24 @@
+.aurrebista {
+  text-align:center;
+}
+
+.botoibloke {
+display:inline-block
+}
+
+.botoibloke img {
+max-height:150px;
+max-width:150px;
+}
+
+.botoibloke a.hover {
+background-color:black
+}
+
+#behekobarra {
+display: flex;
+justify-content: space-between;
+margin-left:150px;
+margin-right:150px;
+text-align:center;
+}
