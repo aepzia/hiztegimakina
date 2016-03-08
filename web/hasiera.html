@@ -4,7 +4,7 @@
   <title>Hitz machine</title>
   <link rel="stylesheet" type="text/css" href="styles.css"/>
 <meta charset="UTF-8">
-
+	
     <script type="text/javascript">
 
         var zenbagarrenOrria = 1;
@@ -24,8 +24,9 @@
             for(i; i <= 20; i++) {
                 var hizt = hiztegiak[i-1];
                 var proba = hizt.getElementsByTagName("izenaEuskaraz");
-
-                table = table + "<td>" + hizt.getElementsByTagName("izenaEuskaraz")[0].firstChild.data + "</td>";
+				var irudiLink = hizt.getElementsByTagName("irudia")[0].firstChild.data
+				var irudiTestua= hizt.getElementsByTagName("izenaNatiboan")[0].firstChild.data;
+                table = table + '<td class="bandera"><a href="orrialdea2.html"><img src="'+irudiLink+'"/></a><div class="izena">'+irudiTestua+'</div></td>';
 
                 if(i % 5 == 0) table = table + "</tr><tr>"
 
@@ -35,8 +36,9 @@
              for(i; i <= 40; i++) {
                 var hizt = hiztegiak[i-1];
                 var proba = hizt.getElementsByTagName("izenaEuskaraz");
-
-                table2 = table2 + "<td>" + hizt.getElementsByTagName("izenaEuskaraz")[0].firstChild.data + "</td>";
+				var irudiLink = hizt.getElementsByTagName("irudia")[0].firstChild.data
+				var irudiTestua= hizt.getElementsByTagName("izenaNatiboan")[0].firstChild.data;
+                table2 = table2 + '<td class="bandera"><a href="orrialdea2.html"><img src="'+irudiLink+'"/></a><div class="izena">'+irudiTestua+'</div></td>';
 
                 if(i % 5 == 0) table2 = table2 + "</tr><tr>"
 
@@ -45,8 +47,9 @@
              for(i; i <= 59; i++) {
                 var hizt = hiztegiak[i-1];
                 var proba = hizt.getElementsByTagName("izenaEuskaraz");
-
-                table3 = table3 + "<td>" + hizt.getElementsByTagName("izenaEuskaraz")[0].firstChild.data + "</td>";
+				var irudiLink = hizt.getElementsByTagName("irudia")[0].firstChild.data
+				var irudiTestua= hizt.getElementsByTagName("izenaNatiboan")[0].firstChild.data;
+                table3 = table3 + '<td class="bandera"><a href="orrialdea2.html"><img src="'+irudiLink+'"/></a><div class="izena">'+irudiTestua+'</div></td>';
 
                 if(i % 5 == 0) table3 = table3 + "</tr><tr>"
 
@@ -98,11 +101,9 @@
 
 <body onLoad="hiztegiakJaso()">
 
-    <div id="taula">
-
-    </div>
-
-    <button onclick="aurrekoOrria()">Aurreko Orria</button>
-    <button onclick="hurrengoOrria()">Hurrengo Orria</button>
-
+	<table class="osoa">
+	<td><a onclick="aurrekoOrria()"><img src="img/ezkerFletxa.png" /></a></td>
+	<td><div id="taula"></div></td>
+	<td><a onclick="hurrengoOrria()"><img src="img/eskuinFletxa.png" /></a></td>
+	</table>
 </body>
