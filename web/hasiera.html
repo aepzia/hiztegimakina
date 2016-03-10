@@ -2,97 +2,12 @@
 
 <head>
   <title>Hitz machine</title>
-  <link rel="stylesheet" type="text/css" href="styles.css"/>
+<link rel="stylesheet" type="text/css" href="./estiloa.css">
 <meta charset="UTF-8">
+<script src="scriptak.js"></script>
 	
     <script type="text/javascript">
 
-        var zenbagarrenOrria = 1;
-        var table, table2, table3;
-
-        function hiztegiakJaso(){
-            var i = 1;
-            var request = new XMLHttpRequest();
-            request.open("GET", "data.xml", false);
-            request.send();
-            table = "<table><tr>"
-            table2 = "<table><tr>"
-            table3 = "<table><tr>"
-            var xml = request.responseXML;
-            var hiztegiak = xml.getElementsByTagName("hiztegia");
-
-            for(i; i <= 20; i++) {
-                var hizt = hiztegiak[i-1];
-                var proba = hizt.getElementsByTagName("izenaEuskaraz");
-				var irudiLink = hizt.getElementsByTagName("irudia")[0].firstChild.data
-				var irudiTestua= hizt.getElementsByTagName("izenaNatiboan")[0].firstChild.data;
-                table = table + '<td class="bandera"><a href="orrialdea2.html"><img src="'+irudiLink+'"/></a><div class="izena">'+irudiTestua+'</div></td>';
-
-                if(i % 5 == 0) table = table + "</tr><tr>"
-
-            }
-
-
-             for(i; i <= 40; i++) {
-                var hizt = hiztegiak[i-1];
-                var proba = hizt.getElementsByTagName("izenaEuskaraz");
-				var irudiLink = hizt.getElementsByTagName("irudia")[0].firstChild.data
-				var irudiTestua= hizt.getElementsByTagName("izenaNatiboan")[0].firstChild.data;
-                table2 = table2 + '<td class="bandera"><a href="orrialdea2.html"><img src="'+irudiLink+'"/></a><div class="izena">'+irudiTestua+'</div></td>';
-
-                if(i % 5 == 0) table2 = table2 + "</tr><tr>"
-
-            }
-
-             for(i; i <= 59; i++) {
-                var hizt = hiztegiak[i-1];
-                var proba = hizt.getElementsByTagName("izenaEuskaraz");
-				var irudiLink = hizt.getElementsByTagName("irudia")[0].firstChild.data
-				var irudiTestua= hizt.getElementsByTagName("izenaNatiboan")[0].firstChild.data;
-                table3 = table3 + '<td class="bandera"><a href="orrialdea2.html"><img src="'+irudiLink+'"/></a><div class="izena">'+irudiTestua+'</div></td>';
-
-                if(i % 5 == 0) table3 = table3 + "</tr><tr>"
-
-            }
-            table = table + "</table>";
-            table2 = table2 + "</table>";
-            table3 = table3 + "</table>";
-            document.getElementById("taula").innerHTML = table;
-        }
-
-
-        function hurrengoOrria(){
-            if(zenbagarrenOrria<3){
-                zenbagarrenOrria++;
-                if (zenbagarrenOrria==2){
-                    document.getElementById("taula").innerHTML = table2;
-                }
-
-
-                else if (zenbagarrenOrria==3){
-                    document.getElementById("taula").innerHTML = table3;
-                }
-            }
-
-
-        }
-
-
-        function aurrekoOrria(){
-            if(zenbagarrenOrria>1){
-                zenbagarrenOrria--;
-                if (zenbagarrenOrria==1){
-                    document.getElementById("taula").innerHTML = table;
-                }
-
-
-                else if (zenbagarrenOrria==2){
-                    document.getElementById("taula").innerHTML = table2;
-                }
-            }
-
-
-        }
 
 
     </script>

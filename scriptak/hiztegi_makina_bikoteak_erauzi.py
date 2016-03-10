@@ -28,7 +28,9 @@ for zki in range(len(hizkuntza_t)):
         eusk=sinonimoak_t[0]
         sinonimoa=sinonimoak_t[zki]
         if (eusk<>'') :
-            firt.write("<cstyle:eu>"+eusk+"<cstyle:>\t<cstyle:"+hizkuntza_t[zki]+">"+sinonimoa+"<cstyle:>\r\n")
+            firt.write("<cstyle:"+hizkuntza_t[zki]+">"+sinonimoa+"<cstyle:>\r\n")
+    
+    #firt.write("<cstyle:eu>"+eusk+"<cstyle:>\t<cstyle:"+hizkuntza_t[zki]+">"+sinonimoa+"<cstyle:>\r\n")
 
     f.close()
     firt.close()

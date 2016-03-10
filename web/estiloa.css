@@ -22,3 +22,42 @@ margin-left:150px;
 margin-right:150px;
 text-align:center;
 }
+
+
+table.osoa{
+	position:absolute;
+	width: 100%;
+	height:100%;
+}
+img{
+	opacity:1;
+	filter: alpha(opacity=100);
+	width: 100%;
+	height:100%;
+}
+img:hover{
+	opacity: 0.3;
+	filter: alpha(opacity=30);
+}
+.izena{
+	opacity:0;
+}
+td.bandera:hover{
+	opacity:0.6;
+    background-color:red;
+}
+
+
+td.banderaAukeratua {
+    background-color:red;
+}
+
+td {
+padding-left:50px;
+padding-right:50px;
+}
+
+a:link { color: #000000; text-decoration: none}
+a:visited { color: #000000; text-decoration: none}
+//a:hover { color: #3366CC; text-decoration: underline}
+a:active { color: #000000; text-decoration: none}
