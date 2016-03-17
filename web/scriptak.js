@@ -236,3 +236,25 @@ function checkKey(e) {
     }
 
 }
+function inprimituHizt() {
+	document.getElementById("abisua").style.display="block";
+	document.getElementById("inprimatuHitzBotoia").disabled=true;
+	document.getElementById("inprimatuHitzBotoia").src="img/inprimatu1.png";
+	
+	setTimeout(function(){
+		document.getElementById("abisua").style.display="none";
+	}, 2000);
+}
+function inprimituJokoa() {
+	document.getElementById("abisua").style.display="block";
+	document.getElementById("inprimatuJokoaBotoia").disabled=true;
+	document.getElementById("inprimatuJokoaBotoia").src="img/zoriesataria1.png";
+	
+	setTimeout(function(){
+		document.getElementById("abisua").style.display="none";
+	}, 2000);
+}
+function lortuQr(){
+	document.getElementById("qr").style.display="block";
+}
+
