@@ -3,6 +3,12 @@
 	<title></title>
 	<link rel="stylesheet" type="text/css" href="./estiloa.css">
 	<script src="scriptak.js"></script>
+	<script>
+		function lortuQr(){
+			document.getElementById("qr").src="<?php echo $_GET['qr']?>";
+			document.getElementById("qr").style.display="block";
+		}
+	</script>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
@@ -11,13 +17,12 @@
 <div id="abisua">
 	<img src="img/interface/loading.gif" alt="PDFaren aurrebista"/>
 </div>
-<div id="qr">
-	<img src="img/qr/índice.png" alt="PDFaren aurrebista"/>
+<div>
+	<img  id="qr"/>
 </div>
 <div class="aurrebista">
 <img border="1px" src="aurrebistak/preview.png"/ alt="PDFaren aurrebista"/>
 </div>
-  
 
 
 <hr>
