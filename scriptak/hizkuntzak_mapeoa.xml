@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hiztegiak zenbat="52"><hiztegia>
+	<izenaEuskara>euskara</izenaEuskaraz>
+	<izenaNatiboan>orijinala</izenaNatiboan>
+	<iso>iso</iso>
+	<pdf>pdf/hiztegiak/iso.pdf</pdf>
+	<qr>img/qr/iso.png</qr>
+	<preview>img/preview/iso.png</preview>
+	<kontagailua>0</kontagailua>
+</hiztegia>
+<hiztegia>
+	<izenaEuskara>xxx</izenaEuskaraz>
+	<izenaNatiboan>EUSKARA</izenaNatiboan>
+	<iso>eu</iso>
+	<pdf>pdf/hiztegiak/eu.pdf</pdf>
+	<qr>img/qr/eu.png</qr>
+	<preview>img/preview/eu.png</preview>
+	<kontagailua>0</kontagailua>
+</hiztegia>
+<hiztegia>
+	<izenaEuskara>xxx</izenaEuskaraz>
+	<izenaNatiboan></izenaNatiboan>
+	<iso></iso>
+	<pdf>pdf/hiztegiak/.pdf</pdf>
+	<qr>img/qr/.png</qr>
+	<preview>img/preview/.png</preview>
+	<kontagailua>0</kontagailua>
+</hiztegia>
+<hiztegia>
+	<izenaEuskara>xxx</izenaEuskaraz>
+	<izenaNatiboan>NEPĀLĪ BHĀṢĀ </izenaNatiboan>
+	<iso>ne</iso>
+	<pdf>pdf/hiztegiak/ne.pdf</pdf>
+	<qr>img/qr/ne.png</qr>
+	<preview>img/preview/ne.png</preview>
+	<kontagailua>0</kontagailua>
+</hiztegia>
+<hiztegia>
+	<izenaEuskara>xxx</izenaEuskaraz>
+	<izenaNatiboan>ROMÂNĂ</izenaNatiboan>
+	<iso>ro</iso>
+	<pdf>pdf/hiztegiak/ro.pdf</pdf>
+	<qr>img/qr/ro.png</qr>
+	<preview>img/preview/ro.png</preview>
+	<kontagailua>0</kontagailua>
+</hiztegia>
+<hiztegia>
+	<izenaEuskara>xxx</izenaEuskaraz>
+	<izenaNatiboan>KICHWA SHIMI </izenaNatiboan>
+	<iso>qu</iso>
+	<pdf>pdf/hiztegiak/qu.pdf</pdf>
+	<qr>img/qr/qu.png</qr>
+	<preview>img/preview/qu.png</preview>
+	<kontagailua>0</kontagailua>
+</hiztegia>
+<hiztegia>
+	<izenaEuskara>xxx</izenaEuskaraz>
+	<izenaNatiboan>DIOLA</izenaNatiboan>
+	<iso></iso>
+	<pdf>pdf/hiztegiak/.pdf</pdf>
+	<qr>img/qr/.png</qr>
+	<preview>img/preview/.png</preview>
+	<kontagailua>0</kontagailua>
+</hiztegia>
+<hiztegia>
+	<izenaEuskara>xxx</izenaEuskaraz>
+	<izenaNatiboan>AVAÑE'Ẽ</izenaNatiboan>
+	<iso>gn</iso>
+	<pdf>pdf/hiztegiak/gn.pdf</pdf>
+	<qr>img/qr/gn.png</qr>
+	<preview>img/preview/gn.png</preview>
+	<kontagailua>0</kontagailua>
+</hiztegia>
+<hiztegia>
+	<izenaEuskara>xxx</izenaEuskaraz>
+	<izenaNatiboan>WOLOF</izenaNatiboan>
+	<iso>wo</iso>
+	<pdf>pdf/hiztegiak/wo.pdf</pdf>
+	<qr>img/qr/wo.png</qr>
+	<preview>img/preview/wo.png</preview>
+	<kontagailua>0</kontagailua>
+</hiztegia>
+<hiztegia>
+	<izenaEuskara>xxx</izenaEuskaraz>
+	<izenaNatiboan>DARIJA</izenaNatiboan>
+	<iso></iso>
+	<pdf>pdf/hiztegiak/.pdf</pdf>
+	<qr>img/qr/.png</qr>
+	<preview>img/preview/.png</preview>
+	<kontagailua>0</kontagailua>
+</hiztegia>
+<hiztegia>
+	<izenaEuskara>xxx</izenaEuskaraz>
+	<izenaNatiboan>汉语/漢語 </izenaNatiboan>
+	<iso>zh</iso>
+	<pdf>pdf/hiztegiak/zh.pdf</pdf>
+	<qr>img/qr/zh.png</qr>
+	<preview>img/preview/zh.png</preview>
+	<kontagailua>0</kontagailua>
+</hiztegia>
+<hiztegia>
+	<izenaEuskara>xxx</izenaEuskaraz>
+	<izenaNatiboan>HÀNYǓ </izenaNatiboan>
+	<iso>zh</iso>
+	<pdf>pdf/hiztegiak/zh.pdf</pdf>
+	<qr>img/qr/zh.png</qr>
+	<preview>img/preview/zh.png</preview>
+	<kontagailua>0</kontagailua>
+</hiztegia>
+<hiztegia>
+	<izenaEuskara>xxx</izenaEuskaraz>
+	<izenaNatiboan>URDŪ </izenaNatiboan>
+	<iso>ur</iso>
+	<pdf>pdf/hiztegiak/ur.pdf</pdf>
+	<qr>img/qr/ur.png</qr>
+	<preview>img/preview/ur.png</preview>
+	<kontagailua>0</kontagailua>
+</hiztegia>
+<hiztegia>
+	<izenaEuskara>xxx</izenaEuskaraz>
+	<izenaNatiboan>TAMAZIGHT</izenaNatiboan>
+	<iso>ber</iso>
+	<pdf>pdf/hiztegiak/ber.pdf</pdf>
+	<qr>img/qr/ber.png</qr>
+	<preview>img/preview/ber.png</preview>
+	<kontagailua>0</kontagailua>
+</hiztegia>
+<hiztegia>
+	<izenaEuskara>xxx</izenaEuskaraz>
+	<izenaNatiboan>AYMAR ARU</izenaNatiboan>
+	<iso>ay</iso>
+	<pdf>pdf/hiztegiak/ay.pdf</pdf>
+	<qr>img/qr/ay.png</qr>
+	<preview>img/preview/ay.png</preview>
+	<kontagailua>0</kontagailua>
+</hiztegia>
+<hiztegia>
+	<izenaEuskara>xxx</izenaEuskaraz>
+	<izenaNatiboan>FULFULDE </izenaNatiboan>
+	<iso>ff</iso>
+	<pdf>pdf/hiztegiak/ff.pdf</pdf>
+	<qr>img/qr/ff.png</qr>
+	<preview>img/preview/ff.png</preview>
+	<kontagailua>0</kontagailua>
+</hiztegia>
+<hiztegia>
+	<izenaEuskara>xxx</izenaEuskaraz>
+	<izenaNatiboan>PORTUGUĚS</izenaNatiboan>
+	<iso>pt</iso>
+	<pdf>pdf/hiztegiak/pt.pdf</pdf>
+	<qr>img/qr/pt.png</qr>
+	<preview>img/preview/pt.png</preview>
+	<kontagailua>0</kontagailua>
+</hiztegia>
+<hiztegia>
+	<izenaEuskara>xxx</izenaEuskaraz>
+	<izenaNatiboan>БЪЛГАРСКИ ЕЗИК</izenaNatiboan>
+	<iso>bg</iso>
+	<pdf>pdf/hiztegiak/bg.pdf</pdf>
+	<qr>img/qr/bg.png</qr>
+	<preview>img/preview/bg.png</preview>
+	<kontagailua>0</kontagailua>
+</hiztegia>
+<hiztegia>
+	<izenaEuskara>xxx</izenaEuskaraz>
+	<izenaNatiboan>DEUTSCH</izenaNatiboan>
+	<iso>de</iso>
+	<pdf>pdf/hiztegiak/de.pdf</pdf>
+	<qr>img/qr/de.png</qr>
+	<preview>img/preview/de.png</preview>
+	<kontagailua>0</kontagailua>
+</hiztegia>
+<hiztegia>
+	<izenaEuskara>xxx</izenaEuskaraz>
+	<izenaNatiboan>GALEGO </izenaNatiboan>
+	<iso>gl</iso>
+	<pdf>pdf/hiztegiak/gl.pdf</pdf>
+	<qr>img/qr/gl.png</qr>
+	<preview>img/preview/gl.png</preview>
+	<kontagailua>0</kontagailua>
+</hiztegia>
+<hiztegia>
+	<izenaEuskara>xxx</izenaEuskaraz>
+	<izenaNatiboan>CATALÀ </izenaNatiboan>
+	<iso>ca</iso>
+	<pdf>pdf/hiztegiak/ca.pdf</pdf>
+	<qr>img/qr/ca.png</qr>
+	<preview>img/preview/ca.png</preview>
+	<kontagailua>0</kontagailua>
+</hiztegia>
+<hiztegia>
+	<izenaEuskara>xxx</izenaEuskaraz>
+	<izenaNatiboan>FRANÇAIS</izenaNatiboan>
+	<iso>fr</iso>
+	<pdf>pdf/hiztegiak/fr.pdf</pdf>
+	<qr>img/qr/fr.png</qr>
+	<preview>img/preview/fr.png</preview>
+	<kontagailua>0</kontagailua>
+</hiztegia>
+<hiztegia>
+	<izenaEuskara>xxx</izenaEuskaraz>
+	<izenaNatiboan>CASTELLANO</izenaNatiboan>
+	<iso>es</iso>
+	<pdf>pdf/hiztegiak/es.pdf</pdf>
+	<qr>img/qr/es.png</qr>
+	<preview>img/preview/es.png</preview>
+	<kontagailua>0</kontagailua>
+</hiztegia>
+<hiztegia>
+	<izenaEuskara>xxx</izenaEuskaraz>
+	<izenaNatiboan>ENGLISH</izenaNatiboan>
+	<iso>en</iso>
+	<pdf>pdf/hiztegiak/en.pdf</pdf>
+	<qr>img/qr/en.png</qr>
+	<preview>img/preview/en.png</preview>
+	<kontagailua>0</kontagailua>
+</hiztegia>
+<hiztegia>
+	<izenaEuskara>xxx</izenaEuskaraz>
+	<izenaNatiboan>JĘZYK POLSKI </izenaNatiboan>
+	<iso>pl</iso>
+	<pdf>pdf/hiztegiak/pl.pdf</pdf>
+	<qr>img/qr/pl.png</qr>
+	<preview>img/preview/pl.png</preview>
+	<kontagailua>0</kontagailua>
+</hiztegia>
+<hiztegia>
+	<izenaEuskara>xxx</izenaEuskaraz>
+	<izenaNatiboan>РУССКИЙ ЯЗЫК </izenaNatiboan>
+	<iso>ru</iso>
+	<pdf>pdf/hiztegiak/ru.pdf</pdf>
+	<qr>img/qr/ru.png</qr>
+	<preview>img/preview/ru.png</preview>
+	<kontagailua>0</kontagailua>
+</hiztegia>
+<hiztegia>
+	<izenaEuskara>xxx</izenaEuskaraz>
+	<izenaNatiboan>RUSSKIY YAZYK</izenaNatiboan>
+	<iso>ru</iso>
+	<pdf>pdf/hiztegiak/ru.pdf</pdf>
+	<qr>img/qr/ru.png</qr>
+	<preview>img/preview/ru.png</preview>
+	<kontagailua>0</kontagailua>
+</hiztegia>
+<hiztegia>
+	<izenaEuskara>xxx</izenaEuskaraz>
+	<izenaNatiboan>ITALIANO </izenaNatiboan>
+	<iso>it</iso>
+	<pdf>pdf/hiztegiak/it.pdf</pdf>
+	<qr>img/qr/it.png</qr>
+	<preview>img/preview/it.png</preview>
+	<kontagailua>0</kontagailua>
+</hiztegia>
+<hiztegia>
+	<izenaEuskara>xxx</izenaEuskaraz>
+	<izenaNatiboan>ḤASSĀNĪYA </izenaNatiboan>
+	<iso>mey</iso>
+	<pdf>pdf/hiztegiak/mey.pdf</pdf>
+	<qr>img/qr/mey.png</qr>
+	<preview>img/preview/mey.png</preview>
+	<kontagailua>0</kontagailua>
+</hiztegia>
+<hiztegia>
+	<izenaEuskara>xxx</izenaEuskaraz>
+	<izenaNatiboan>حسانية </izenaNatiboan>
+	<iso>mey</iso>
+	<pdf>pdf/hiztegiak/mey.pdf</pdf>
+	<qr>img/qr/mey.png</qr>
+	<preview>img/preview/mey.png</preview>
+	<kontagailua>0</kontagailua>
+</hiztegia>
+<hiztegia>
+	<izenaEuskara>xxx</izenaEuskaraz>
+	<izenaNatiboan>PAṈJĀBĪ</izenaNatiboan>
+	<iso>pa</iso>
+	<pdf>pdf/hiztegiak/pa.pdf</pdf>
+	<qr>img/qr/pa.png</qr>
+	<preview>img/preview/pa.png</preview>
+	<kontagailua>0</kontagailua>
+</hiztegia>
+<hiztegia>
+	<izenaEuskara>xxx</izenaEuskaraz>
+	<izenaNatiboan>BRASILEIRO</izenaNatiboan>
+	<iso></iso>
+	<pdf>pdf/hiztegiak/.pdf</pdf>
+	<qr>img/qr/.png</qr>
+	<preview>img/preview/.png</preview>
+	<kontagailua>0</kontagailua>
+</hiztegia>
+<hiztegia>
+	<izenaEuskara>xxx</izenaEuskaraz>
+	<izenaNatiboan>VALENCIÀ </izenaNatiboan>
+	<iso></iso>
+	<pdf>pdf/hiztegiak/.pdf</pdf>
+	<qr>img/qr/.png</qr>
+	<preview>img/preview/.png</preview>
+	<kontagailua>0</kontagailua>
+</hiztegia>
+<hiztegia>
+	<izenaEuskara>xxx</izenaEuskaraz>
+	<izenaNatiboan>LËTZEBUERGESCH</izenaNatiboan>
+	<iso>lb</iso>
+	<pdf>pdf/hiztegiak/lb.pdf</pdf>
+	<qr>img/qr/lb.png</qr>
+	<preview>img/preview/lb.png</preview>
+	<kontagailua>0</kontagailua>
+</hiztegia>
+<hiztegia>
+	<izenaEuskara>xxx</izenaEuskaraz>
+	<izenaNatiboan>ELLINIKÁ </izenaNatiboan>
+	<iso>el</iso>
+	<pdf>pdf/hiztegiak/el.pdf</pdf>
+	<qr>img/qr/el.png</qr>
+	<preview>img/preview/el.png</preview>
+	<kontagailua>0</kontagailua>
+</hiztegia>
+<hiztegia>
+	<izenaEuskara>xxx</izenaEuskaraz>
+	<izenaNatiboan>ΕΛΛΗΝΙΚΆ </izenaNatiboan>
+	<iso>el</iso>
+	<pdf>pdf/hiztegiak/el.pdf</pdf>
+	<qr>img/qr/el.png</qr>
+	<preview>img/preview/el.png</preview>
+	<kontagailua>0</kontagailua>
+</hiztegia>
+<hiztegia>
+	<izenaEuskara>xxx</izenaEuskaraz>
+	<izenaNatiboan>TÜRKÇE </izenaNatiboan>
+	<iso>tr</iso>
+	<pdf>pdf/hiztegiak/tr.pdf</pdf>
+	<qr>img/qr/tr.png</qr>
+	<preview>img/preview/tr.png</preview>
+	<kontagailua>0</kontagailua>
+</hiztegia>
+<hiztegia>
+	<izenaEuskara>xxx</izenaEuskaraz>
+	<izenaNatiboan>SLOVENŠČINA</izenaNatiboan>
+	<iso>sl</iso>
+	<pdf>pdf/hiztegiak/sl.pdf</pdf>
+	<qr>img/qr/sl.png</qr>
+	<preview>img/preview/sl.png</preview>
+	<kontagailua>0</kontagailua>
+</hiztegia>
+<hiztegia>
+	<izenaEuskara>xxx</izenaEuskaraz>
+	<izenaNatiboan>УКРАЇНСЬКА МОВА </izenaNatiboan>
+	<iso>uk</iso>
+	<pdf>pdf/hiztegiak/uk.pdf</pdf>
+	<qr>img/qr/uk.png</qr>
+	<preview>img/preview/uk.png</preview>
+	<kontagailua>0</kontagailua>
+</hiztegia>
+<hiztegia>
+	<izenaEuskara>xxx</izenaEuskaraz>
+	<izenaNatiboan>MAGYAR</izenaNatiboan>
+	<iso>hu</iso>
+	<pdf>pdf/hiztegiak/hu.pdf</pdf>
+	<qr>img/qr/hu.png</qr>
+	<preview>img/preview/hu.png</preview>
+	<kontagailua>0</kontagailua>
+</hiztegia>
+<hiztegia>
+	<izenaEuskara>xxx</izenaEuskaraz>
+	<izenaNatiboan>SRPSK</izenaNatiboan>
+	<iso>sr</iso>
+	<pdf>pdf/hiztegiak/sr.pdf</pdf>
+	<qr>img/qr/sr.png</qr>
+	<preview>img/preview/sr.png</preview>
+	<kontagailua>0</kontagailua>
+</hiztegia>
+<hiztegia>
+	<izenaEuskara>xxx</izenaEuskaraz>
+	<izenaNatiboan>СРПСКИ </izenaNatiboan>
+	<iso>sr</iso>
+	<pdf>pdf/hiztegiak/sr.pdf</pdf>
+	<qr>img/qr/sr.png</qr>
+	<preview>img/preview/sr.png</preview>
+	<kontagailua>0</kontagailua>
+</hiztegia>
+<hiztegia>
+	<izenaEuskara>xxx</izenaEuskaraz>
+	<izenaNatiboan>HRVATSKI</izenaNatiboan>
+	<iso>hr</iso>
+	<pdf>pdf/hiztegiak/hr.pdf</pdf>
+	<qr>img/qr/hr.png</qr>
+	<preview>img/preview/hr.png</preview>
+	<kontagailua>0</kontagailua>
+</hiztegia>
+<hiztegia>
+	<izenaEuskara>xxx</izenaEuskaraz>
+	<izenaNatiboan>KRIOLU</izenaNatiboan>
+	<iso>kea</iso>
+	<pdf>pdf/hiztegiak/kea.pdf</pdf>
+	<qr>img/qr/kea.png</qr>
+	<preview>img/preview/kea.png</preview>
+	<kontagailua>0</kontagailua>
+</hiztegia>
+<hiztegia>
+	<izenaEuskara>xxx</izenaEuskaraz>
+	<izenaNatiboan>SARDU</izenaNatiboan>
+	<iso>sc</iso>
+	<pdf>pdf/hiztegiak/sc.pdf</pdf>
+	<qr>img/qr/sc.png</qr>
+	<preview>img/preview/sc.png</preview>
+	<kontagailua>0</kontagailua>
+</hiztegia>
+<hiztegia>
+	<izenaEuskara>xxx</izenaEuskaraz>
+	<izenaNatiboan>HINDĪ </izenaNatiboan>
+	<iso>hi</iso>
+	<pdf>pdf/hiztegiak/hi.pdf</pdf>
+	<qr>img/qr/hi.png</qr>
+	<preview>img/preview/hi.png</preview>
+	<kontagailua>0</kontagailua>
+</hiztegia>
+<hiztegia>
+	<izenaEuskara>xxx</izenaEuskaraz>
+	<izenaNatiboan>हिंदी</izenaNatiboan>
+	<iso>hi</iso>
+	<pdf>pdf/hiztegiak/hi.pdf</pdf>
+	<qr>img/qr/hi.png</qr>
+	<preview>img/preview/hi.png</preview>
+	<kontagailua>0</kontagailua>
+</hiztegia>
+<hiztegia>
+	<izenaEuskara>xxx</izenaEuskaraz>
+	<izenaNatiboan>BANGLA</izenaNatiboan>
+	<iso>bn</iso>
+	<pdf>pdf/hiztegiak/bn.pdf</pdf>
+	<qr>img/qr/bn.png</qr>
+	<preview>img/preview/bn.png</preview>
+	<kontagailua>0</kontagailua>
+</hiztegia>
+<hiztegia>
+	<izenaEuskara>xxx</izenaEuskaraz>
+	<izenaNatiboan>LINGÁLA </izenaNatiboan>
+	<iso>ln</iso>
+	<pdf>pdf/hiztegiak/ln.pdf</pdf>
+	<qr>img/qr/ln.png</qr>
+	<preview>img/preview/ln.png</preview>
+	<kontagailua>0</kontagailua>
+</hiztegia>
+<hiztegia>
+	<izenaEuskara>xxx</izenaEuskaraz>
+	<izenaNatiboan>ASTURIANU</izenaNatiboan>
+	<iso>ast</iso>
+	<pdf>pdf/hiztegiak/ast.pdf</pdf>
+	<qr>img/qr/ast.png</qr>
+	<preview>img/preview/ast.png</preview>
+	<kontagailua>0</kontagailua>
+</hiztegia>
+<hiztegia>
+	<izenaEuskara>xxx</izenaEuskaraz>
+	<izenaNatiboan>WIKANG TAGALOG </izenaNatiboan>
+	<iso>tl</iso>
+	<pdf>pdf/hiztegiak/tl.pdf</pdf>
+	<qr>img/qr/tl.png</qr>
+	<preview>img/preview/tl.png</preview>
+	<kontagailua>0</kontagailua>
+</hiztegia>
+<hiztegia>
+	<izenaEuskara>xxx</izenaEuskaraz>
+	<izenaNatiboan>SVENSKA</izenaNatiboan>
+	<iso>sv</iso>
+	<pdf>pdf/hiztegiak/sv.pdf</pdf>
+	<qr>img/qr/sv.png</qr>
+	<preview>img/preview/sv.png</preview>
+	<kontagailua>0</kontagailua>
+</hiztegia>
+<hiztegia>
+	<izenaEuskara>xxx</izenaEuskaraz>
+	<izenaNatiboan>ČEŠTINA </izenaNatiboan>
+	<iso>cs</iso>
+	<pdf>pdf/hiztegiak/cs.pdf</pdf>
+	<qr>img/qr/cs.png</qr>
+	<preview>img/preview/cs.png</preview>
+	<kontagailua>0</kontagailua>
+</hiztegia>
+<hiztegia>
+	<izenaEuskara>xxx</izenaEuskaraz>
+	<izenaNatiboan>SUOMEN KIELI</izenaNatiboan>
+	<iso>fi</iso>
+	<pdf>pdf/hiztegiak/fi.pdf</pdf>
+	<qr>img/qr/fi.png</qr>
+	<preview>img/preview/fi.png</preview>
+	<kontagailua>0</kontagailua>
+</hiztegia>
+<hiztegia>
+	<izenaEuskara>xxx</izenaEuskaraz>
+	<izenaNatiboan>SLOVENČINA</izenaNatiboan>
+	<iso>sk</iso>
+	<pdf>pdf/hiztegiak/sk.pdf</pdf>
+	<qr>img/qr/sk.png</qr>
+	<preview>img/preview/sk.png</preview>
+	<kontagailua>0</kontagailua>
+</hiztegia>
+<hiztegia>
+	<izenaEuskara>xxx</izenaEuskaraz>
+	<izenaNatiboan>ÍSLENSKA </izenaNatiboan>
+	<iso>is</iso>
+	<pdf>pdf/hiztegiak/is.pdf</pdf>
+	<qr>img/qr/is.png</qr>
+	<preview>img/preview/is.png</preview>
+	<kontagailua>0</kontagailua>
+</hiztegia>
+<hiztegia>
