@@ -1,6 +1,8 @@
 var table1;
 var table2;
 var table3;
+var qrHautatua;
+var pdfHautatua;
 
 function hasi() {
 //    alert("Kaixo!");
@@ -34,7 +36,9 @@ function hasi() {
 				var irudiLink = hizt.getElementsByTagName("irudia")[0].firstChild.data
 				var irudiTestua= hizt.getElementsByTagName("izenaNatiboan")[0].firstChild.data;
 				var izenaEuskaraz= hizt.getElementsByTagName("izenaEuskaraz")[0].firstChild.data;
-                table1 = table1 + '<td id="gelaxka'+x+''+y+'" class="bandera"><a href="orrialdea2.html"><label><h2>'+izenaEuskaraz+'</h2><h3>'+irudiTestua+'</h3></label></a><div class="izena">'+irudiTestua+'</div></td>';
+				var qrHelbidea=hizt.getElementsByTagName("qr")[0].firstChild.data;
+				var pdfHelbidea= hizt.getElementsByTagName("pdf")[0].firstChild.data;
+                table1 = table1 + '<td id="gelaxka'+x+''+y+'" class="bandera"><a href="orrialdea2.php?qr='+qrHelbidea+'&pdf='+pdfHelbidea+'" ><label><h2>'+izenaEuskaraz+'</h2><h3>'+irudiTestua+'</h3></label></a><div class="izena">'+irudiTestua+'</div></td>';
 		x=x+1;
                 if(i % 5 == 0) {
 		table1 = table1 + "</tr><tr>";
@@ -239,7 +243,7 @@ function checkKey(e) {
 function inprimituHizt() {
 	document.getElementById("abisua").style.display="block";
 	document.getElementById("inprimatuHitzBotoia").disabled=true;
-	document.getElementById("inprimatuHitzBotoia").src="img/inprimatu1.png";
+	document.getElementById("inprimatuHitzBotoia").src="img/interface/inprimatu2.jpg";
 	
 	setTimeout(function(){
 		document.getElementById("abisua").style.display="none";
@@ -248,13 +252,11 @@ function inprimituHizt() {
 function inprimituJokoa() {
 	document.getElementById("abisua").style.display="block";
 	document.getElementById("inprimatuJokoaBotoia").disabled=true;
-	document.getElementById("inprimatuJokoaBotoia").src="img/zoriesataria1.png";
+	document.getElementById("inprimatuJokoaBotoia").src="img/interface/zoriesataria2.jpg";
 	
 	setTimeout(function(){
 		document.getElementById("abisua").style.display="none";
 	}, 2000);
 }
-function lortuQr(){
-	document.getElementById("qr").style.display="block";
-}
+
 

@@ -10,12 +10,8 @@
         <irudia>
             img/flags/ingelesa.jpg
         </irudia>
-        <pdf>
-            /pdf/hiztegiak/ingelesa.pdf
-        </pdf>
-        <qr>
-            /qr/english.jpg
-        </qr>
+        <pdf>/pdf/hiztegiak/ingelesa.pdf</pdf>
+        <qr>img/qr/indice.png</qr>
         <jostailua>
             /pdf/jostailuak/ingelesa.pdf
         </jostailua>
