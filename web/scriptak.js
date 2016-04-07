@@ -243,8 +243,7 @@ function checkKey(e) {
 function inprimituHizt() {
 	document.getElementById("abisua").style.display="block";
 	document.getElementById("inprimatuHitzBotoia").disabled=true;
-	document.getElementById("inprimatuHitzBotoia").src="img/interface/inprimatu2.jpg";
-	
+	document.getElementById("inprimatuHitzBotoia").src="img/interface/inprimatu2.jpg";	
 	setTimeout(function(){
 		document.getElementById("abisua").style.display="none";
 	}, 2000);
@@ -253,7 +252,6 @@ function inprimituJokoa() {
 	document.getElementById("abisua").style.display="block";
 	document.getElementById("inprimatuJokoaBotoia").disabled=true;
 	document.getElementById("inprimatuJokoaBotoia").src="img/interface/zoriesataria2.jpg";
-	
 	setTimeout(function(){
 		document.getElementById("abisua").style.display="none";
 	}, 2000);
