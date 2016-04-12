@@ -45,12 +45,12 @@ atzerapz=16
 GPIO.setwarnings(True) ## Disables messages about GPIO pins already being in use
 GPIO.setmode(GPIO.BOARD) ## Indicates which pin numbering configuration to use
 
-GPIO.setup(gorapz, GPIO.IN) ## Tells it that pin 16 (button) will be giving input
-GPIO.setup(beherapz, GPIO.IN) ## Tells it that pin 16 (button) will be giving input
-GPIO.setup(ezkerpz, GPIO.IN) ## Tells it that pin 16 (button) will be giving input
-GPIO.setup(eskuinpz, GPIO.IN) ## Tells it that pin 16 (button) will be giving input
-GPIO.setup(onartupz, GPIO.IN) ## Tells it that pin 16 (button) will be giving input
-GPIO.setup(atzerapz, GPIO.IN) ## Tells it that pin 16 (button) will be giving input
+GPIO.setup(gorapz, GPIO.IN, pull_up_down=GPIO.PUD_UP) ## Tells it that pin 16 (button) will be giving input
+GPIO.setup(beherapz, GPIO.IN, pull_up_down=GPIO.PUD_UP) ## Tells it that pin 16 (button) will be giving input
+GPIO.setup(ezkerpz, GPIO.IN, pull_up_down=GPIO.PUD_UP) ## Tells it that pin 16 (button) will be giving input
+GPIO.setup(eskuinpz, GPIO.IN, pull_up_down=GPIO.PUD_UP) ## Tells it that pin 16 (button) will be giving input
+GPIO.setup(onartupz, GPIO.IN, pull_up_down=GPIO.PUD_UP) ## Tells it that pin 16 (button) will be giving input
+GPIO.setup(atzerapz, GPIO.IN, pull_up_down=GPIO.PUD_UP) ## Tells it that pin 16 (button) will be giving input
 
 k=0
 while True:
