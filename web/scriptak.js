@@ -30,34 +30,36 @@ function hasi() {
 	      var x=1;
 	      
 	      
-            for(i; i <= 20; i++) {
+		for(i=1; i <= 20; i++) {
+			var hizt = hiztegiak[i-1];
+            var proba = hizt.getElementsByTagName("izenaEuskaraz");
+			var irudiTestua= hizt.getElementsByTagName("izenaNatiboan")[0].firstChild.data;
+			var izenaEuskaraz= hizt.getElementsByTagName("izenaEuskaraz")[0].firstChild.data;
+			var qrHelbidea=hizt.getElementsByTagName("qr")[0].firstChild.data;
+			var pdfHelbidea= hizt.getElementsByTagName("pdf")[0].firstChild.data;
+			
+			table1 = table1 + '<td id="gelaxka'+x+''+y+'" class="bandera"><a href="aukerak.php?qr='+qrHelbidea+'&pdf='+pdfHelbidea+'" ><label><h2>'+izenaEuskaraz+'</h2><h3>'+irudiTestua+'</h3></label></a><div class="izena">'+irudiTestua+'</div></td>';
+			x=x+1;
+			if(i % 5 == 0) {
+				table1 = table1 + "</tr><tr>";
+				x=1;
+				y=y+1;
+			}
+
+		}
+
+			x=1;
+			y=1;
+
+             for(i=21; i <= 40; i++) {
                 var hizt = hiztegiak[i-1];
                 var proba = hizt.getElementsByTagName("izenaEuskaraz");
-				var irudiLink = hizt.getElementsByTagName("irudia")[0].firstChild.data
 				var irudiTestua= hizt.getElementsByTagName("izenaNatiboan")[0].firstChild.data;
 				var izenaEuskaraz= hizt.getElementsByTagName("izenaEuskaraz")[0].firstChild.data;
 				var qrHelbidea=hizt.getElementsByTagName("qr")[0].firstChild.data;
 				var pdfHelbidea= hizt.getElementsByTagName("pdf")[0].firstChild.data;
-                table1 = table1 + '<td id="gelaxka'+x+''+y+'" class="bandera"><a href="orrialdea2.php?qr='+qrHelbidea+'&pdf='+pdfHelbidea+'" ><label><h2>'+izenaEuskaraz+'</h2><h3>'+irudiTestua+'</h3></label></a><div class="izena">'+irudiTestua+'</div></td>';
-		x=x+1;
-                if(i % 5 == 0) {
-		table1 = table1 + "</tr><tr>";
-		  x=1;
-		  y=y+1;
-		  }
-
-            }
-
-	    x=1;
-	    y=1;
-
-             for(i; i <= 40; i++) {
-                var hizt = hiztegiak[i-1];
-                var proba = hizt.getElementsByTagName("izenaEuskaraz");
-				var irudiLink = hizt.getElementsByTagName("irudia")[0].firstChild.data
-				var irudiTestua= hizt.getElementsByTagName("izenaNatiboan")[0].firstChild.data;
-                //table2 = table2 + '<td class="bandera"><a href="orrialdea2.html"><img src="'+irudiLink+'"/></a><div class="izena">'+irudiTestua+'</div></td>';
-		table2 = table2 + '<td id="gelaxka'+x+''+y+'" class="bandera"><a href="orrialdea2.html"><label><h2>'+izenaEuskaraz+'</h2><h3>'+irudiTestua+'</h3></label></a><div class="izena">'+irudiTestua+'</div></td>';
+                
+		table2 = table2 + '<td id="gelaxka'+x+''+y+'" class="bandera"><a href="aukerak.php?qr='+qrHelbidea+'&pdf='+pdfHelbidea+'" ><label><h2>'+izenaEuskaraz+'</h2><h3>'+irudiTestua+'</h3></label></a><div class="izena">'+irudiTestua+'</div></td>';
 
 		x=x+1;
                 if(i % 5 == 0) {
@@ -72,19 +74,22 @@ function hasi() {
 
              for(i; i <= 59; i++) {
                 var hizt = hiztegiak[i-1];
+				if (hizt != undefined) {
                 var proba = hizt.getElementsByTagName("izenaEuskaraz");
-				var irudiLink = hizt.getElementsByTagName("irudia")[0].firstChild.data
 				var irudiTestua= hizt.getElementsByTagName("izenaNatiboan")[0].firstChild.data;
-                //table3 = table3 + '<td class="bandera"><a href="orrialdea2.html"><img src="'+irudiLink+'"/></a><div class="izena">'+irudiTestua+'</div></td>';
-		table3 = table3 + '<td id="gelaxka'+x+''+y+'" class="bandera"><a href="orrialdea2.html"><label><h2>'+izenaEuskaraz+'</h2><h3>'+irudiTestua+'</h3></label></a><div class="izena">'+irudiTestua+'</div></td>';
+				var izenaEuskaraz= hizt.getElementsByTagName("izenaEuskaraz")[0].firstChild.data;
+				var qrHelbidea=hizt.getElementsByTagName("qr")[0].firstChild.data;
+				var pdfHelbidea= hizt.getElementsByTagName("pdf")[0].firstChild.data;
+                
+				table3 = table3 + '<td id="gelaxka'+x+''+y+'" class="bandera"><a href="aukerak.php?qr='+qrHelbidea+'&pdf='+pdfHelbidea+'" ><label><h2>'+izenaEuskaraz+'</h2><h3>'+irudiTestua+'</h3></label></a><div class="izena">'+irudiTestua+'</div></td>';
 
-		 x=x+1;
-                if(i % 5 == 0) {
-		    table3 = table3 + "</tr><tr>"
-		    x=1;
-		    y=y+1;
-}
-
+				x=x+1;
+				if(i % 5 == 0) {
+					table3 = table3 + "</tr><tr>"
+					x=1;
+					y=y+1;
+					}
+				}
             }
             table1 = table1 + "</tr></table>";
             table2 = table2 + "</tr></table>";
