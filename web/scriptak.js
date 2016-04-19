@@ -174,7 +174,88 @@ function hurrengoTaula (gelaxka) {
 }
 
 function checkKey(e) {
+  if (window.location.pathname.indexOf("aukerak.php")>0) {
+    aukerakBotoiak(e);
+  }
+  else {
+    hizkuntzakBotoiak(e);
+  }
+}
 
+function aukerakBotoiak (e) {
+
+	e = e || window.event;
+	
+	if (e.keyCode == '37') {
+	// left arrow
+
+        var gelaxkaElementua = document.getElementsByClassName("botoiblokeAukeratua")[0];
+        var anaiak=gelaxkaElementua.parentNode.getElementsByTagName("div");
+        unekoa=0;
+        for (var i=0; i<anaiak.length; i++) {
+          if (anaiak[i].className=="botoiblokeAukeratua") {
+            unekoa=i;
+          }
+        }
+
+        if (unekoa==0) {
+          unekoa=4;
+        }
+        var gelaxkaBerria = anaiak[unekoa-1];
+        gelaxkaElementua.className="botoibloke";
+        gelaxkaBerria.className="botoiblokeAukeratua";
+
+
+
+
+	}
+	else if (e.keyCode == '39') {
+	// right arrow
+        var gelaxkaElementua = document.getElementsByClassName("botoiblokeAukeratua")[0];
+	var anaiak=gelaxkaElementua.parentNode.getElementsByTagName("div");
+	unekoa=0;
+	for (var i=0; i<anaiak.length; i++) {
+	  if (anaiak[i].className=="botoiblokeAukeratua") {
+	    unekoa=i;
+	  }
+	}
+
+	if (unekoa==3) {
+	  unekoa=-1;
+	}
+        var gelaxkaBerria = anaiak[unekoa+1];
+        gelaxkaElementua.className="botoibloke";
+        gelaxkaBerria.className="botoiblokeAukeratua";
+
+	}
+        else if (e.keyCode == '65') {
+	// a botoia
+        var gelaxkaElementua = document.getElementsByClassName("botoiblokeAukeratua")[0];
+	if (gelaxkaElementua.id == "etxera") {
+          window.location="http://localhost/hiztegimakina/web/hizkuntzak.html";
+	}
+	else if (gelaxkaElementua.id == "qrerakutsi") {
+	  lortuQr();
+	}
+        var anaiak=gelaxkaElementua.parentNode.getElementsByTagName("div");
+        unekoa=0;
+        for (var i=0; i<anaiak.length; i++) {
+          if (anaiak[i].className=="botoiblokeAukeratua") {
+            unekoa=i;
+          }
+        }
+
+	}
+        else if (e.keyCode == '66') {
+	//b botoia
+        window.location="http://localhost/hiztegimakina/web/hizkuntzak.html";
+
+	}
+	
+	}
+
+
+function hizkuntzakBotoiak (e) {
     e = e || window.event;
 
     if (e.keyCode == '38') {
@@ -242,6 +323,20 @@ function checkKey(e) {
 	gelaxkaElementua.className="bandera";
 	var hurrengogelaxka = document.getElementById("gelaxka"+x.toString()+y.toString());
 	hurrengogelaxka.className="banderaAukeratua";
+    }
+    else if (e.keyCode == '65') {
+        //a botoia
+	var gelaxkaElementua = document.getElementsByClassName("banderaAukeratua")[0];
+	var hurrengoLotura = gelaxkaElementua.childNodes[0].getAttribute("href");
+//	alert (hurrengoLotura);
+	var s=window.location.pathname;
+	var n=s.lastIndexOf("/");
+	s = s.substring(0, n != -1 ? n : s.length);
+	window.location="http://localhost"+s+"/"+hurrengoLotura;
+    }
+    else if (e.keyCode == '66') {
+        //b botoia
+	window.location="http://localhost/hiztegimakina/web/hizkuntzak.html";
     }
 
 }

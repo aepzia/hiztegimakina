@@ -6,12 +6,27 @@
 display:inline-block
 }
 
+.botoiblokeAukeratua {
+display:inline-block;
+}
+
+.botoiblokeAukeratua input{
+max-height: 150px;
+max-width: 150px;
+opacity:0.5;
+}
+
+
 .botoibloke input{
 max-height: 150px;
 max-width: 150px;
 }
 
 .botoibloke a.hover {
+background-color:black
+}
+
+.botoiblokeAukeratua a.hover {
 background-color:black
 }
 

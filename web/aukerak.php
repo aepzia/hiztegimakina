@@ -28,18 +28,19 @@
 <hr>
 
 <div id="behekobarra">
-  <div class="botoibloke">
-    <input type="image" id="inprimatuHitzBotoia" src="img/interface/inprimatu1.jpg" onclick="inprimituHizt()" class="ezaukeratua"></input>
+  <div class="botoiblokeAukeratua" id="inprimatuHitz">
+     <input type="image" id="inprimatuHitzBotoia" src="img/interface/inprimatu1.jpg" onclick="inprimituHizt()" class="ezaukeratua"></input>
   </div>
-  <div class="botoibloke">
-    <input type="image" id="inprimatuJokoaBotoia" class="ezaukeratua" src="img/interface/zoriesataria1.jpg"  onclick="inprimituJokoa()"></input>
+  <div class="botoibloke" id="inprimatuJokoa">
+    <input type="image" id="inprimatuJokoaBotoia" class="ezaukeratua" src="img/interface/zoriesataria1.jpg" onclick="inprimituJokoa()"></input>
   </div>
-  <div class="botoibloke">
-     <input type="image" class="ezaukeratua" src="img/interface/bidi1.jpg" onclick="lortuQr()"></input>
+  <div class="botoibloke" id="qrerakutsi">
+     <input type="image" id="qrErakutsiBotoia" class="ezaukeratua" src="img/interface/bidi1.jpg" onclick="lortuQr()"></input>
   </div>
-  <div class="botoibloke">
-    <input type="image" class="ezaukeratua" src="img/interface/etxea1.jpg"></input>
+  <div class="botoibloke" id="etxera">
+    <input type="image" id="etxeraBotoia" class="ezaukeratua" src="img/interface/etxea1.jpg"></input>
   </div>
 </div>
 
 </body> </html>
+
