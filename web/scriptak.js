@@ -81,8 +81,6 @@ function hasi() {
                 var proba = hizt.getElementsByTagName("izenaEuskaraz");
 				var irudiTestua= hizt.getElementsByTagName("izenaNatiboan")[0].firstChild.data;
 				var izenaEuskaraz= hizt.getElementsByTagName("izenaEuskaraz")[0].firstChild.data;
-				var qrHelbidea=hizt.getElementsByTagName("qr")[0].firstChild.data;
-				var pdfHelbidea= hizt.getElementsByTagName("pdf")[0].firstChild.data;
                 
                         	var isokodea="eu";
                 	        if (hizt.getElementsByTagName("iso")[0].firstChild != null) {

@@ -27,7 +27,6 @@
 </div>
 
 
-<hr>
 
 <div id="behekobarra">
   <div class="botoiblokeAukeratua" id="inprimatuHitz">

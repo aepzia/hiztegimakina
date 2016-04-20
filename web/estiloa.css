@@ -1,12 +1,9 @@
 body, html {
-	background-image: url("./img/interface/interfaza/fondoa.jpg");
+	background-image: url("./img/interface/fondoa.png");
 	background-size : cover;
 	margin : 0;
 }
 
-.hizkuntzafletxak {
-  max-height:50%;
-}
 
 .aurrebista {
   height:80%;
@@ -15,7 +12,6 @@ body, html {
 
 .aurrebista img {
   height:50%;
-  text-align:center;
   position: relative;
   top: 60%;
   transform: translateY(-60%);
@@ -23,10 +19,12 @@ body, html {
 
 .botoibloke {
 display:inline-block
+border: 0px solid black;
 }
 
 .botoiblokeAukeratua {
 display:inline-block;
+border: 3px solid black;
 }
 
 .botoiblokeAukeratua input{
@@ -86,9 +84,9 @@ td.banderaAukeratua {
 }
 
 td {
-padding-left:50px;
-padding-right:50px;
-border:1px solid Fuchsia;
+	padding-left:50px;
+	padding-right:50px;
+	border:1px solid Fuchsia;
 }
 #abisua {
 	height:20%;
