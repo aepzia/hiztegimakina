@@ -32,13 +32,18 @@ function hasi() {
 	      
 		for(i=1; i <= 20; i++) {
 			var hizt = hiztegiak[i-1];
-            var proba = hizt.getElementsByTagName("izenaEuskaraz");
+	                var proba = hizt.getElementsByTagName("izenaEuskaraz");
 			var irudiTestua= hizt.getElementsByTagName("izenaNatiboan")[0].firstChild.data;
 			var izenaEuskaraz= hizt.getElementsByTagName("izenaEuskaraz")[0].firstChild.data;
 			var qrHelbidea=hizt.getElementsByTagName("qr")[0].firstChild.data;
 			var pdfHelbidea= hizt.getElementsByTagName("pdf")[0].firstChild.data;
+			var isokodea="eu";
+			if (hizt.getElementsByTagName("iso")[0].firstChild != null) {
+			  isokodea= hizt.getElementsByTagName("iso")[0].firstChild.data;
+			}
+//			var isokodea= hizt.getElementsByTagName("iso")[0].firstChild.data;
 			
-			table1 = table1 + '<td id="gelaxka'+x+''+y+'" class="bandera"><a href="aukerak.php?qr='+qrHelbidea+'&pdf='+pdfHelbidea+'" ><label><h2>'+izenaEuskaraz+'</h2><h3>'+irudiTestua+'</h3></label></a><div class="izena">'+irudiTestua+'</div></td>';
+			table1 = table1 + '<td id="gelaxka'+x+''+y+'" class="bandera"><a href="aukerak.php?qr='+qrHelbidea+'&pdf='+pdfHelbidea+'&iso='+isokodea+'" ><label><h2>'+izenaEuskaraz+'</h2><h3>'+irudiTestua+'</h3></label></a><div class="izena">'+irudiTestua+'</div></td>';
 			x=x+1;
 			if(i % 5 == 0) {
 				table1 = table1 + "</tr><tr>";
@@ -58,8 +63,15 @@ function hasi() {
 				var izenaEuskaraz= hizt.getElementsByTagName("izenaEuskaraz")[0].firstChild.data;
 				var qrHelbidea=hizt.getElementsByTagName("qr")[0].firstChild.data;
 				var pdfHelbidea= hizt.getElementsByTagName("pdf")[0].firstChild.data;
+                        	var isokodea="eu";
+                        	if (hizt.getElementsByTagName("iso")[0].firstChild != null) {
+                          	  isokodea= hizt.getElementsByTagName("iso")[0].firstChild.data;
+                        	}
+//                      var isokodea= hizt.getElementsByTagName("iso")[0].firstChild.data;
+
+			table2 = table2 + '<td id="gelaxka'+x+''+y+'" class="bandera"><a href="aukerak.php?qr='+qrHelbidea+'&pdf='+pdfHelbidea+'&iso='+isokodea+'" ><label><h2>'+izenaEuskaraz+'</h2><h3>'+irudiTestua+'</h3></label></a><div class="izena">'+irudiTestua+'</div></td>';
                 
-		table2 = table2 + '<td id="gelaxka'+x+''+y+'" class="bandera"><a href="aukerak.php?qr='+qrHelbidea+'&pdf='+pdfHelbidea+'" ><label><h2>'+izenaEuskaraz+'</h2><h3>'+irudiTestua+'</h3></label></a><div class="izena">'+irudiTestua+'</div></td>';
+//		table2 = table2 + '<td id="gelaxka'+x+''+y+'" class="bandera"><a href="aukerak.php?qr='+qrHelbidea+'&pdf='+pdfHelbidea+'" ><label><h2>'+izenaEuskaraz+'</h2><h3>'+irudiTestua+'</h3></label></a><div class="izena">'+irudiTestua+'</div></td>';
 
 		x=x+1;
                 if(i % 5 == 0) {
@@ -81,7 +93,15 @@ function hasi() {
 				var qrHelbidea=hizt.getElementsByTagName("qr")[0].firstChild.data;
 				var pdfHelbidea= hizt.getElementsByTagName("pdf")[0].firstChild.data;
                 
-				table3 = table3 + '<td id="gelaxka'+x+''+y+'" class="bandera"><a href="aukerak.php?qr='+qrHelbidea+'&pdf='+pdfHelbidea+'" ><label><h2>'+izenaEuskaraz+'</h2><h3>'+irudiTestua+'</h3></label></a><div class="izena">'+irudiTestua+'</div></td>';
+                        	var isokodea="eu";
+                	        if (hizt.getElementsByTagName("iso")[0].firstChild != null) {
+        	                  isokodea= hizt.getElementsByTagName("iso")[0].firstChild.data;
+	                        }
+//                      var isokodea= hizt.getElementsByTagName("iso")[0].firstChild.data;
+
+			table3 = table3 + '<td id="gelaxka'+x+''+y+'" class="bandera"><a href="aukerak.php?qr='+qrHelbidea+'&pdf='+pdfHelbidea+'&iso='+isokodea+'" ><label><h2>'+izenaEuskaraz+'</h2><h3>'+irudiTestua+'</h3></label></a><div class="izena">'+irudiTestua+'</div></td>';
+
+//				table3 = table3 + '<td id="gelaxka'+x+''+y+'" class="bandera"><a href="aukerak.php?qr='+qrHelbidea+'&pdf='+pdfHelbidea+'" ><label><h2>'+izenaEuskaraz+'</h2><h3>'+irudiTestua+'</h3></label></a><div class="izena">'+irudiTestua+'</div></td>';
 
 				x=x+1;
 				if(i % 5 == 0) {
@@ -174,6 +194,7 @@ function hurrengoTaula (gelaxka) {
 }
 
 function checkKey(e) {
+  e.preventDefault();
   if (window.location.pathname.indexOf("aukerak.php")>0) {
     aukerakBotoiak(e);
   }
@@ -237,6 +258,24 @@ function aukerakBotoiak (e) {
 	else if (gelaxkaElementua.id == "qrerakutsi") {
 	  lortuQr();
 	}
+        else if (gelaxkaElementua.id == "inprimatuHitz" && !(document.getElementById("inprimatuHitzBotoia").disabled)) {
+	var isopos = window.location.search.search("iso=");
+	var iso = window.location.search.substr(isopos+4);
+          $.ajax({url: "./inprimatu.php?izena="+iso, success: function(result){
+
+	   inprimituHizt();
+	    
+        }});
+        }
+        else if (gelaxkaElementua.id == "inprimatuJokoa" && !(document.getElementById("inprimatuJokoaBotoia").disabled)) {
+
+          $.ajax({url: "./inprimatu.php?izena=zoriesataria", success: function(result){
+
+           inprimituJokoa();
+            
+        }});
+        }
+
         var anaiak=gelaxkaElementua.parentNode.getElementsByTagName("div");
         unekoa=0;
         for (var i=0; i<anaiak.length; i++) {
@@ -346,7 +385,7 @@ function inprimituHizt() {
 	document.getElementById("inprimatuHitzBotoia").src="img/interface/inprimatu2.jpg";	
 	setTimeout(function(){
 		document.getElementById("abisua").style.display="none";
-	}, 2000);
+	}, 25000);
 }
 function inprimituJokoa() {
 	document.getElementById("abisua").style.display="block";
@@ -354,7 +393,7 @@ function inprimituJokoa() {
 	document.getElementById("inprimatuJokoaBotoia").src="img/interface/zoriesataria2.jpg";
 	setTimeout(function(){
 		document.getElementById("abisua").style.display="none";
-	}, 2000);
+	}, 25000);
 }
 
 

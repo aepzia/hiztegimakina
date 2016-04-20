@@ -2,6 +2,7 @@
 <html> <head>
 	<title></title>
 	<link rel="stylesheet" type="text/css" href="./estiloa.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 	<script src="scriptak.js"></script>
 	<script>
 		function lortuQr(){

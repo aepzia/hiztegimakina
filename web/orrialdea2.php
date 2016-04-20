@@ -5,8 +5,12 @@
 	<script src="scriptak.js"></script>
 	<script>
 		function lortuQr(){
-			document.getElementById("qr").src="<?php echo $_GET['qr']?>";
-			document.getElementById("qr").style.display="block";
+			 setTimeout(function(){ 
+				document.getElementById("qr").src="<?php echo $_GET['qr']?>";
+				document.getElementById("qr").style.display="block";
+			}, 3000);
+			alert("Display none!");
+                                document.getElementById("qr").style.display="none";
 		}
 	</script>
   <meta charset="utf-8">
