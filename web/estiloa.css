@@ -6,15 +6,15 @@ body, html {
 
 
 .aurrebista {
-  height:80%;
+  
+  height: 600px;
   text-align:center;
 }
 
 .aurrebista img {
-  height:50%;
+margin-top: 400px;
+  height:400px;
   position: relative;
-  top: 60%;
-  transform: translateY(-60%);
 }
 
 .botoibloke {
@@ -23,47 +23,34 @@ border: 0px solid black;
 }
 
 .botoiblokeAukeratua {
-display:inline-block;
-border: 3px solid black;
+
 }
 
 .botoiblokeAukeratua input{
-max-height:90%;
-max-width: 90%;
-opacity:0.5;
+
+opacity:1;
 }
 
 
 .botoibloke input{
-max-height:80%;
-max-width: 80%;
-}
-
-.botoibloke a.hover {
-background-color:black
-}
-
-.botoiblokeAukeratua a.hover {
-background-color:black
+opacity:0.3;
 }
 
 #behekobarra {
+margin-top: 250px;
 display: flex;
 justify-content: space-between;
-margin-left:10%;
-margin-right:10%;
+margin-left:190px;
+margin-right:190px;
 text-align:center;
 }
 
 
 table.osoa{
 	position:absolute;
-/*	width:80%;
-	height:60%;*/
-	margin-top:20%;
-	margin-left:8%;
-	margin-bottom:20%;
 	border-spacing:15px;
+margin-left: 260px;
+margin-top: 365px;
 }
 
 img:hover{
@@ -74,46 +61,43 @@ img:hover{
 	opacity:0;
 }
 td.bandera:hover{
-	opacity:0.6;
-    background-color:Fuchsia ;
+    background-color:rgb(226,1,123) ;
 }
 
 
 td.banderaAukeratua {
-    background-color:Fuchsia;
+    background-color:rgb(226,1,123);
 }
 
-tr {
-    height:85px;
-}
 
 td {
-	padding-left:50px;
-	padding-right:50px;
-	border:1px solid Fuchsia;
-	width:150px;
+	height: 175px;
+	width:260px;
+	text-align: center;
+	background-color:rgba(226,1,123,0.3);
 }
 #abisua {
-	height:20%;
+	padding-top: 170px;
+	padding-left: 370px;
+padding-right: 370px;
+	height:100%;
 	display: none;
 	z-index:4;
 	position:fixed;
-	top:7%;
-	left:7%;
+background-color: white;
 }
 
 #qr{
         height:20%;
         background: gray;
-    /*    margin-top: 384px;
-        margin-left: 512px;*/
         display: none;
         z-index:4;  
 	top:40%;
-	left:42%;
+	left:40%;
 	position: fixed;
+	padding: 50px;
 }
 
-a:link { color: #000000; text-decoration: none}
-a:visited { color: #000000; text-decoration: none}
-a:active { color: #000000; text-decoration: none}
+a:link { color: black; text-decoration: none}
+a:visited { color: black; text-decoration: none}
+a:active { color: black; text-decoration: none}
