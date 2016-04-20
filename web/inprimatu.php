@@ -12,6 +12,9 @@ echo "<br/>";
 echo $file;
 echo "<br/>";
 echo "lpr ".$fitxategia." -P HLL2340D";
-shell_exec("lpr ".$fitxategia." -P HLL2340D");
+if(file_exists($fitxategia)){
+	shell_exec("lpr ".$fitxategia." -P HLL2340D");
+}
+
 ?>
 

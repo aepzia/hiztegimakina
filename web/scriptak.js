@@ -5,15 +5,11 @@ var qrHautatua;
 var pdfHautatua;
 
 function hasi() {
-//    alert("Kaixo!");
     var lehena = document.getElementById("gelaxka11");
     lehena.className="banderaAukeratua";
-    //alert(lehena);
-//    alert(lehena);
 }
 
         var zenbagarrenOrria = 1;
-//        var table, table2, table3;
 
         function hiztegiakJaso(){
             var i = 1;
@@ -21,7 +17,6 @@ function hasi() {
             request.open("GET", "data.xml", false);
             request.send();
             table1 = "<table id='taula1' class='osoa'><tr>";
-//	    alert (table1);
             table2 = "<table id='taula2' class='osoa'><tr>";
             table3 = "<table id='taula3' class='osoa'><tr>";
             var xml = request.responseXML;
@@ -195,7 +190,6 @@ function aukerakBotoiak (e) {
 	e = e || window.event;
 	
 	if (e.keyCode == '37') {
-	// left arrow
 
         var gelaxkaElementua = document.getElementsByClassName("botoiblokeAukeratua")[0];
         var anaiak=gelaxkaElementua.parentNode.getElementsByTagName("div");
@@ -218,7 +212,6 @@ function aukerakBotoiak (e) {
 
 	}
 	else if (e.keyCode == '39') {
-	// right arrow
         var gelaxkaElementua = document.getElementsByClassName("botoiblokeAukeratua")[0];
 	var anaiak=gelaxkaElementua.parentNode.getElementsByTagName("div");
 	unekoa=0;
@@ -237,7 +230,6 @@ function aukerakBotoiak (e) {
 
 	}
         else if (e.keyCode == '65') {
-	// a botoia
         var gelaxkaElementua = document.getElementsByClassName("botoiblokeAukeratua")[0];
 	if (gelaxkaElementua.id == "etxera") {
           window.location="http://localhost/hiztegimakina/web/hizkuntzak.html";
@@ -296,9 +288,13 @@ function hizkuntzakBotoiak (e) {
 	else {
 	    y=y-1;
 }
-	gelaxkaElementua.className="bandera";
-	var hurrengogelaxka = document.getElementById("gelaxka"+x.toString()+y.toString());
-	hurrengogelaxka.className="banderaAukeratua";
+        var hurrengogelaxka = document.getElementById("gelaxka"+x.toString()+y.toString());
+        if(hurrengogelaxka !=null){
+
+                hurrengogelaxka.className="banderaAukeratua";
+                gelaxkaElementua.className="bandera";
+
+        }
     }
     else if (e.keyCode == '40') {
         // down arrow
@@ -312,9 +308,16 @@ function hizkuntzakBotoiak (e) {
 	else {
 	    y=y+1;
 }
-	gelaxkaElementua.className="bandera";
-	var hurrengogelaxka = document.getElementById("gelaxka"+x.toString()+y.toString());
-	hurrengogelaxka.className="banderaAukeratua";
+        var hurrengogelaxka = document.getElementById("gelaxka"+x.toString()+y.toString());
+        if(hurrengogelaxka !=null){
+
+                hurrengogelaxka.className="banderaAukeratua";
+                gelaxkaElementua.className="bandera";
+
+        }
+
+
+
     }
     else if (e.keyCode == '37') {
        // left arrow
@@ -329,9 +332,14 @@ function hizkuntzakBotoiak (e) {
 	else {
 	    x=x-1;
 }
-	gelaxkaElementua.className="bandera";
 	var hurrengogelaxka = document.getElementById("gelaxka"+x.toString()+y.toString());
-	hurrengogelaxka.className="banderaAukeratua";
+        if(hurrengogelaxka !=null){
+                
+		hurrengogelaxka.className="banderaAukeratua";
+		gelaxkaElementua.className="bandera";
+
+        }
+	
     }
     else if (e.keyCode == '39') {
        // right arrow
@@ -346,15 +354,18 @@ function hizkuntzakBotoiak (e) {
 	else {
 	    x=x+1;
 }
-	gelaxkaElementua.className="bandera";
-	var hurrengogelaxka = document.getElementById("gelaxka"+x.toString()+y.toString());
-	hurrengogelaxka.className="banderaAukeratua";
+        var hurrengogelaxka = document.getElementById("gelaxka"+x.toString()+y.toString());
+        if(hurrengogelaxka !=null){
+
+                hurrengogelaxka.className="banderaAukeratua";
+                gelaxkaElementua.className="bandera";
+
+        }
     }
     else if (e.keyCode == '65') {
         //a botoia
 	var gelaxkaElementua = document.getElementsByClassName("banderaAukeratua")[0];
 	var hurrengoLotura = gelaxkaElementua.childNodes[0].getAttribute("href");
-//	alert (hurrengoLotura);
 	var s=window.location.pathname;
 	var n=s.lastIndexOf("/");
 	s = s.substring(0, n != -1 ? n : s.length);
