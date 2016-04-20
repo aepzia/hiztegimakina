@@ -58,8 +58,8 @@ text-align:center;
 
 table.osoa{
 	position:absolute;
-	width:80%;
-	height:60%;
+/*	width:80%;
+	height:60%;*/
 	margin-top:20%;
 	margin-left:8%;
 	margin-bottom:20%;
@@ -83,10 +83,15 @@ td.banderaAukeratua {
     background-color:Fuchsia;
 }
 
+tr {
+    height:85px;
+}
+
 td {
 	padding-left:50px;
 	padding-right:50px;
 	border:1px solid Fuchsia;
+	width:150px;
 }
 #abisua {
 	height:20%;
