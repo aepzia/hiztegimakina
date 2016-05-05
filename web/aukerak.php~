@@ -23,7 +23,7 @@
 	<img  id="qr"/>
 </div>
 <div class="aurrebista">
-<img border="1px" src="img/preview/<?php echo $_GET['iso']?>.png"/ alt="PDFaren aurrebista"/>
+<img border="1px" src="aurrebistak/preview.png"/ alt="PDFaren aurrebista"/>
 </div>
 
 
