@@ -154,10 +154,10 @@
 	<kontagailua>0</kontagailua>
 </hiztegia>
 <hiztegia>
-	<izenaEuskaraz>Errusiera latindarra</izenaEuskaraz>
+	<izenaEuskaraz>Errusiera_latindarra</izenaEuskaraz>
 	<izenaNatiboan>RUSSKIY YAZYK
 </izenaNatiboan>
-	<iso>ru rom</iso>
+	<iso>ru_rom</iso>
 	<kontagailua>0</kontagailua>
 </hiztegia>
 <hiztegia>
@@ -168,10 +168,10 @@
 	<kontagailua>0</kontagailua>
 </hiztegia>
 <hiztegia>
-	<izenaEuskaraz>Hassaniya latindarra</izenaEuskaraz>
+	<izenaEuskaraz>Hassaniya_latindarra</izenaEuskaraz>
 	<izenaNatiboan>ḤASSĀNĪYA
 </izenaNatiboan>
-	<iso>mey rom</iso>
+	<iso>mey_rom</iso>
 	<kontagailua>0</kontagailua>
 </hiztegia>
 <hiztegia>
@@ -192,14 +192,14 @@
 	<izenaEuskaraz>Brasilgo portugesa</izenaEuskaraz>
 	<izenaNatiboan>BRASILEIRO
 </izenaNatiboan>
-	<iso>pt br</iso>
+	<iso>pt_br</iso>
 	<kontagailua>0</kontagailua>
 </hiztegia>
 <hiztegia>
 	<izenaEuskaraz>Valentziera</izenaEuskaraz>
 	<izenaNatiboan>VALENCIÀ
 </izenaNatiboan>
-	<iso>ca vc</iso>
+	<iso>ca_vc</iso>
 	<kontagailua>0</kontagailua>
 </hiztegia>
 <hiztegia>
@@ -210,10 +210,10 @@
 	<kontagailua>0</kontagailua>
 </hiztegia>
 <hiztegia>
-	<izenaEuskaraz>Grekoa latindarra</izenaEuskaraz>
+	<izenaEuskaraz>Grekoa_latindarra</izenaEuskaraz>
 	<izenaNatiboan>ELLINIKÁ
 </izenaNatiboan>
-	<iso>el rom</iso>
+	<iso>el_rom</iso>
 	<kontagailua>0</kontagailua>
 </hiztegia>
 <hiztegia>
@@ -252,10 +252,10 @@
 	<kontagailua>0</kontagailua>
 </hiztegia>
 <hiztegia>
-	<izenaEuskaraz>Serbiera latindarra</izenaEuskaraz>
+	<izenaEuskaraz>Serbiera_latindarra</izenaEuskaraz>
 	<izenaNatiboan>SRPSK
 </izenaNatiboan>
-	<iso>sr rom</iso>
+	<iso>sr_rom</iso>
 	<kontagailua>0</kontagailua>
 </hiztegia>
 <hiztegia>
