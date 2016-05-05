@@ -6,7 +6,8 @@
 	<script>
 		function lortuQr(){
 			 setTimeout(function(){ 
-				document.getElementById("qr").src="<?php echo $_GET['qr']?>";
+			    var iso = "<?php echo $_GET['iso']?>";
+				document.getElementById("qr").src="img/qr/"+iso+".png";
 				document.getElementById("qr").style.display="block";
 			}, 3000);
 			alert("Display none!");
@@ -25,7 +26,7 @@
 	<img  id="qr"/>
 </div>
 <div class="aurrebista">
-<img border="1px" src="img/preview/" alt="PDFaren aurrebista"/>
+<img border="1px" src="img/preview/<?php echo $_GET['iso']?>" alt="PDFaren aurrebista"/>
 </div>
 
 

@@ -40,8 +40,6 @@ function hasi() {
 			if (hizt.getElementsByTagName("iso")[0].firstChild != null) {
 			  isokodea= hizt.getElementsByTagName("iso")[0].firstChild.data;
 			}
-//			var isokodea= hizt.getElementsByTagName("iso")[0].firstChild.data;
-			
 			table1 = table1 + '<td id="gelaxka'+x+''+y+'" class="bandera"><a href="aukerak.php?iso='+isokodea+'" ><label><h2>'+izenaEuskaraz+'</h2><h3>'+irudiTestua+'</h3></label></a><div class="izena">'+irudiTestua+'</div></td>';
 			x=x+1;
 			if(i % 5 == 0) {
