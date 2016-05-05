@@ -5,7 +5,7 @@ if ($file == "zoriesataria") {
 $fitxategia = $dir."/zoriesataria/zoriesataria.pdf";
 }
 else {
-$fitxategia = $dir."/hiztegiak/HiztegiaEusk".$file.".pdf";
+$fitxategia = $dir."/hiztegiak/".$file.".pdf";
 }
 echo $fitxategia;
 echo "<br/>";

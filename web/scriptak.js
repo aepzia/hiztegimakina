@@ -20,9 +20,10 @@ function hasi() {
             var request = new XMLHttpRequest();
             request.open("GET", "data.xml", false);
             request.send();
-            table1 = "<table id='taula1'><tr>"
-            table2 = "<table id='taula2'><tr>"
-            table3 = "<table id='taula3'><tr>"
+            table1 = "<table id='taula1' class='osoa'><tr>";
+//	    alert (table1);
+            table2 = "<table id='taula2' class='osoa'><tr>";
+            table3 = "<table id='taula3' class='osoa'><tr>";
             var xml = request.responseXML;
             var hiztegiak = xml.getElementsByTagName("hiztegia");
 
