@@ -1,57 +1,51 @@
-iso	orijinala	euskara
-eu	EUSKARA	xxx
-		xxx
-ne	NEPĀLĪ BHĀṢĀ 	xxx
-ro	ROMÂNĂ	xxx
-qu	KICHWA SHIMI 	xxx
-	DIOLA	xxx
-gn	AVAÑE'Ẽ	xxx
-wo	WOLOF	xxx
-	DARIJA	xxx
-zh	汉语/漢語 	xxx
-zh	HÀNYǓ 	xxx
-ur	URDŪ 	xxx
-ber	TAMAZIGHT	xxx
-ay	AYMAR ARU	xxx
-ff	FULFULDE 	xxx
-pt	PORTUGUĚS	xxx
-bg	БЪЛГАРСКИ ЕЗИК	xxx
-de	DEUTSCH	xxx
-gl	GALEGO 	xxx
-ca	CATALÀ 	xxx
-fr	FRANÇAIS	xxx
-es	CASTELLANO	xxx
-en	ENGLISH	xxx
-pl	JĘZYK POLSKI 	xxx
-ru	РУССКИЙ ЯЗЫК 	xxx
-ru	RUSSKIY YAZYK	xxx
-it	ITALIANO 	xxx
-mey	ḤASSĀNĪYA 	xxx
-mey	حسانية 	xxx
-pa	PAṈJĀBĪ	xxx
-	BRASILEIRO	xxx
-	VALENCIÀ 	xxx
-lb	LËTZEBUERGESCH	xxx
-el	ELLINIKÁ 	xxx
-el	ΕΛΛΗΝΙΚΆ 	xxx
-tr	TÜRKÇE 	xxx
-sl	SLOVENŠČINA	xxx
-uk	УКРАЇНСЬКА МОВА 	xxx
-hu	MAGYAR	xxx
-sr	SRPSK	xxx
-sr	СРПСКИ 	xxx
-hr	HRVATSKI	xxx
-kea	KRIOLU	xxx
-sc	SARDU	xxx
-hi	HINDĪ 	xxx
-hi	हिंदी	xxx
-bn	BANGLA	xxx
-ln	LINGÁLA 	xxx
-ast	ASTURIANU	xxx
-tl	WIKANG TAGALOG 	xxx
-sv	SVENSKA	xxx
-cs	ČEŠTINA 	xxx
-fi	SUOMEN KIELI	xxx
-sk	SLOVENČINA	xxx
-is	ÍSLENSKA 	xxx
-
+Nepaliera,ne,NEPĀLĪ BHĀṢĀ
+Errumaniera,ro,ROMÂNĂ
+Kitxua,qu,KICHWA SHIMI
+Diola,dyo,DIOLA
+Guaraniera,gn,AVAÑE'Ẽ
+Wolofera,wo,WOLOF
+Marrokiera,ary,DARIJA
+Txinera,zh,HÀNYǓ
+Urdú,ur,URDŪ
+Tamazight,ber,TAMAZIGHT
+Aymara,ay,AYMAR ARU
+Fulfulde,ff,FULFULDE
+Portugesa,pt,PORTUGUĚS
+Bulgariera,bg,БЪЛГАРСКИ ЕЗИК
+Alemana,de,DEUTSCH
+Galiziera,gl,GALEGO
+Katalana,ca,CATALÀ
+Frantsesa,fr,FRANÇAIS
+Gaztelania,es,CASTELLANO
+Ingelesa,en,ENGLISH
+Poloniera,pl,JĘZYK POLSKI
+Errusiera,ru,РУССКИЙ ЯЗЫК
+Errusiera_latindarra,ru_rom,RUSSKIY YAZYK
+Italiera,it,ITALIANO
+Hassaniya_latindarra,mey_rom,ḤASSĀNĪYA
+Hassaniya,mey,حسانية
+Punjabiera,pa,PAṈJĀBĪ
+Brasilgo portugesa,pt_br,BRASILEIRO
+Valentziera,ca_vc,VALENCIÀ
+Luxenburgera,lb,LËTZEBUERGESCH
+Grekoa_latindarra,el_rom,ELLINIKÁ
+Grekoa,el,ΕΛΛΗΝΙΚΆ
+Turkiera,tr,TÜRKÇE
+Esloveniera,sl,SLOVENŠČINA
+Ukrainera,uk,УКРАЇНСЬКА МОВА
+Hungariera,hu,MAGYAR
+Serbiera_latindarra,sr_rom,SRPSK
+Serbiera,sr,СРПСКИ
+Kroaziera,hr,HRVATSKI
+Kreolera,kea,KRIOLU
+Sardiniera,sc,SARDU
+Hindia,HINDĪ,HINDĪ
+Bengaliera,bn,BANGLA
+Lingala,ln,LINGÁLA
+Asturiera,ast,ASTURIANU
+Tagalo,tl,WIKANG TAGALOG
+Suediera,sv,SVENSKA
+Txekiera,cs,ČEŠTINA
+Suomiera,fi,SUOMEN KIELI
+Slovakiera,sk,SLOVENČINA
+Islandiera,is,ÍSLENSKA
