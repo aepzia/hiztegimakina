@@ -92,6 +92,7 @@ function hasi() {
 
 			table3 = table3 + '<td id="gelaxka'+x+''+y+'" class="bandera"><a href="aukerak.php?iso='+isokodea+'" ><label><h2>'+izenaEuskaraz+'</h2><h3>'+irudiTestua+'</h3></label></a><div class="izena">'+irudiTestua+'</div></td>';
 
+//				table3 = table3 + '<td id="gelaxka'+x+''+y+'" class="bandera"><a href="aukerak.php?qr='+qrHelbidea+'&pdf='+pdfHelbidea+'" ><label><h2>'+izenaEuskaraz+'</h2><h3>'+irudiTestua+'</h3></label></a><div class="izena">'+irudiTestua+'</div></td>';
 
 				x=x+1;
 				if(i % 5 == 0) {
