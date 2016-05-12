@@ -1,6 +1,7 @@
 var table1;
 var table2;
 var table3;
+var kopMax;
 var qrHautatua;
 var pdfHautatua;
 
@@ -21,6 +22,7 @@ function hasi() {
             table3 = "<table id='taula3' class='osoa'><tr>";
             var xml = request.responseXML;
             var hiztegiak = xml.getElementsByTagName("hiztegia");
+            kopMax=hiztegiak.length();
 
 	      var y=1;
 	      var x=1;
@@ -145,7 +147,11 @@ function zeTaula (gelaxka) {
 }
 
 function aurrekoTaula (gelaxka) {
+    var koordx = gelaxka[8];
+    var koodry = gelaxka[9];
     var znbki=zeTaula(gelaxka);
+    var hizkZenb = (znbki%3)*20+(koordx-1)*5+koodry;
+    if(hizkZenb>maxKop){return;}
     if (znbki == 3) {
 	document.getElementById("taula").innerHTML = table2;
 	}
@@ -154,14 +160,18 @@ function aurrekoTaula (gelaxka) {
 	    document.getElementById("taula").innerHTML = table1;
 	    }
 	else {
-	    //document.getElementById("taula").innerHTML = table3;
+	    document.getElementById("taula").innerHTML = table3;
 	    }
     }
 
 }
 
 function hurrengoTaula (gelaxka) {
+    var koordx = gelaxka[8];
+    var koodry = gelaxka[9];
     var znbki=zeTaula(gelaxka);
+    var hizkZenb = (znbki%3)*20+(koordx-1)*5+koodry;
+    if(hizkZenb>maxKop){return;}
     if (znbki == 3) {
 	document.getElementById("taula").innerHTML = table1;
 	}
