@@ -24,8 +24,8 @@ function hasi() {
 
 	      var y=1;
 	      var x=1;
-	      
-	      
+
+
 		for(i=1; i <= 20; i++) {
 			var hizt = hiztegiak[i-1];
 	                var proba = hizt.getElementsByTagName("izenaEuskaraz");
@@ -76,7 +76,7 @@ function hasi() {
                 var proba = hizt.getElementsByTagName("izenaEuskaraz");
 				var irudiTestua= hizt.getElementsByTagName("izenaNatiboan")[0].firstChild.data;
 				var izenaEuskaraz= hizt.getElementsByTagName("izenaEuskaraz")[0].firstChild.data;
-                
+
                         	var isokodea="eu";
                 	        if (hizt.getElementsByTagName("iso")[0].firstChild != null) {
         	                  isokodea= hizt.getElementsByTagName("iso")[0].firstChild.data;
@@ -154,7 +154,7 @@ function aurrekoTaula (gelaxka) {
 	    document.getElementById("taula").innerHTML = table1;
 	    }
 	else {
-	    document.getElementById("taula").innerHTML = table3;
+	    //document.getElementById("taula").innerHTML = table3;
 	    }
     }
 
@@ -188,7 +188,7 @@ function checkKey(e) {
 function aukerakBotoiak (e) {
 
 	e = e || window.event;
-	
+
 	if (e.keyCode == '37') {
 
         var gelaxkaElementua = document.getElementsByClassName("botoiblokeAukeratua")[0];
@@ -243,7 +243,7 @@ function aukerakBotoiak (e) {
           $.ajax({url: "./inprimatu.php?izena="+iso, success: function(result){
 
 	   inprimituHizt();
-	    
+
         }});
         }
         else if (gelaxkaElementua.id == "inprimatuJokoa" && !(document.getElementById("inprimatuJokoaBotoia").disabled)) {
@@ -251,7 +251,7 @@ function aukerakBotoiak (e) {
           $.ajax({url: "./inprimatu.php?izena=zoriesataria", success: function(result){
 
            inprimituJokoa();
-            
+
         }});
         }
 
@@ -269,7 +269,7 @@ function aukerakBotoiak (e) {
         window.location="http://localhost/hiztegimakina/web/hizkuntzak.html";
 
 	}
-	
+
 	}
 
 
@@ -334,12 +334,12 @@ function hizkuntzakBotoiak (e) {
 }
 	var hurrengogelaxka = document.getElementById("gelaxka"+x.toString()+y.toString());
         if(hurrengogelaxka !=null){
-                
+
 		hurrengogelaxka.className="banderaAukeratua";
 		gelaxkaElementua.className="bandera";
 
         }
-	
+
     }
     else if (e.keyCode == '39') {
        // right arrow
@@ -380,7 +380,7 @@ function hizkuntzakBotoiak (e) {
 function inprimituHizt() {
 	document.getElementById("abisua").style.display="block";
 	document.getElementById("inprimatuHitzBotoia").disabled=true;
-	document.getElementById("inprimatuHitzBotoia").src="img/interface/inprimatu2.jpg";	
+	document.getElementById("inprimatuHitzBotoia").src="img/interface/inprimatu2.jpg";
 	setTimeout(function(){
 		document.getElementById("abisua").style.display="none";
 	}, 25000);
@@ -393,5 +393,3 @@ function inprimituJokoa() {
 		document.getElementById("abisua").style.display="none";
 	}, 25000);
 }
-
-
