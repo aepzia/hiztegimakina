@@ -15,7 +15,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <!-- Modal -->
-<body>
+<body background="img/interface/fondoa2.jpg">
 <div id="abisua">
 	<img src="img/interface/loading.gif" alt="loading"/>
 </div>
