@@ -150,39 +150,41 @@ function aurrekoTaula (gelaxka) {
     var koordx = parseInt(gelaxka.id[7]);
     var koordy = parseInt(gelaxka.id[8]);
     var znbki=zeTaula(gelaxka);
-    var hizkZenb = ((znbki-1)%3)*20+(koordx-1)*5+koordy;
-    if(hizkZenb>kopMax){return;}
     if (znbki == 3) {
 	document.getElementById("taula").innerHTML = table2;
+	return koordy;
 	}
-    else {
-	if (znbki==2) {
-	    document.getElementById("taula").innerHTML = table1;
-	    }
-	else {
-	    document.getElementById("taula").innerHTML = table3;
-	    }
-    }
-
+    else if (znbki==2) {
+		  document.getElementById("taula").innerHTML = table1;
+		  return koordy;
+	}else {
+		if(koordy>2){
+			koordy = 2;
+		} 
+		document.getElementById("taula").innerHTML = table3;
+		return koordy;
+	}
 }
 
 function hurrengoTaula (gelaxka) {
     var koordx = parseInt(gelaxka.id[7]);
-    var koodry = parseInt(gelaxka.id[8]);
+    var koordy = parseInt(gelaxka.id[8]);
+	
     var znbki=zeTaula(gelaxka);
-    var hizkZenb = ((znbki%3)-1)*20+(koordx-1)*5+koodry;
-    if(hizkZenb>kopMax){return;}
     if (znbki == 3) {
 	document.getElementById("taula").innerHTML = table1;
+	return koordy;
 	}
-    else {
-	if (znbki==2) {
-	    document.getElementById("taula").innerHTML = table3;
-	    }
-	else {
-	    document.getElementById("taula").innerHTML = table2;
-	    }
-    }
+    else if (znbki==1) {
+		  document.getElementById("taula").innerHTML = table2;
+		  return koordy;
+	}else {
+		if(koordy>2){
+			koordy = 2;
+		} 
+		document.getElementById("taula").innerHTML = table3;
+		return koordy;
+	}
 }
 
 function checkKey(e) {
@@ -336,8 +338,8 @@ function hizkuntzakBotoiak (e) {
 	var y=parseInt(gelaxkaAukeratua.charAt(gelaxkaAukeratua.length-1));
 	var x=parseInt(gelaxkaAukeratua.charAt(gelaxkaAukeratua.length-2));
 	if (x==1) {
-	    aurrekoTaula(gelaxkaElementua);
-	    x=5;
+	    y = aurrekoTaula(gelaxkaElementua);
+		x=5;
 	}
 	else {
 	    x=x-1;
@@ -358,7 +360,7 @@ function hizkuntzakBotoiak (e) {
 	var y=parseInt(gelaxkaAukeratua.charAt(gelaxkaAukeratua.length-1));
 	var x=parseInt(gelaxkaAukeratua.charAt(gelaxkaAukeratua.length-2));
 	if (x==5) {
-	    hurrengoTaula(gelaxkaElementua)
+	    y=hurrengoTaula(gelaxkaElementua)
 	    x=1;
 	}
 	else {
