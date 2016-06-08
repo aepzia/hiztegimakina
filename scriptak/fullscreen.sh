@@ -1,6 +1,6 @@
 
 #http://raspberrypi.stackexchange.com/questions/30093/epiphany-browser-in-full-screen-mode
-
+sudo cancel -a -x
 sudo pkill python
 #sudo -u pi epiphany-browser -a --profile ~/.config "http://localhost/hiztegimakina/web/hizkuntzak.html" --display=:0 &
 iceweasel "http://localhost/hiztegimakina/web/hizkuntzak.html" --display=:0 &
